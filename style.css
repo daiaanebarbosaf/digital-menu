@@ -118,3 +118,17 @@ ul li strong {
   
   color: var(--color-logo-primary);  
 }
+
+footer {
+  width: 100%;
+  height: 42px;
+
+  background: var(--color-logo-secundaria);
+  color: var(--color-background-h2);
+
+  text-align: center;
+  font-family: var(--font-text-secundary);
+  font-size: 15px;
+
+  padding-top: 20px;
+}
