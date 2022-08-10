@@ -25,7 +25,7 @@ ul {
 header {
   max-width: 300px;
   
-  padding: 32px 0;
+  padding: 2rem 0;
   margin: 0 auto;/*0 em cima e em baixo, automático dos lados*/
   text-align: center;
 }
@@ -68,8 +68,8 @@ section {
 section h2 {
   background: var(--color-background-h2);
 
-  padding: 8px 16px;
-  margin-bottom: 24px;
+  padding: 8px 2rem;
+  margin-bottom: 2rem;
 
   text-align: center;
 
