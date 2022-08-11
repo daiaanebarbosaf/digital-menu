@@ -134,5 +134,8 @@ footer {
 }
 
 @media screen and (min-width: 768px){
-  
+  .details-menu {
+    display: flex;
+    
+  }
 }
