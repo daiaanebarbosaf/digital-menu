@@ -136,12 +136,11 @@ footer {
 @media screen and (min-width: 768px){
   .details-menu {
     display: flex;
+    flex-direction: row;
   }
 
-  header,
-  section {
-    max-width: 300px;
-    margin: 0 auto;
+  ul li {
+    margin-right: 5rem;
   }
 
 }
