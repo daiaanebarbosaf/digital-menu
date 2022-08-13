@@ -137,7 +137,12 @@ footer {
   body {
     min-height: 100vh;
   }
-  
+
+  .departament {
+    height: 100vh;
+  width: 70%;
+  }
+
   .details-menu {
     display: flex;
     
