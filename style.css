@@ -152,11 +152,17 @@ footer {
 
   .details-menu {
     display: flex;
-    
+  }
+
+  section h2,
+  ul li {
+    margin-left: 2rem;
   }
 
   ul li {
     margin-right: 3rem;
   }
+
+
 
 }
