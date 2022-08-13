@@ -82,9 +82,15 @@ section h2 {
 
 }
 
+.departament {
+  border: solid 1px rebeccapurple;
+}
+
 ul li {
   margin-bottom: 16px;
   display: flex;
+
+  border: solid 1px red;
 }
 
 li .details {
