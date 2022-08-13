@@ -69,7 +69,7 @@ section {
 section h2 {
   background: var(--color-background-h2);
 
-  padding: 8px 2rem;
+  padding: .3rem 2rem;
   margin-bottom: 2rem;
 
   text-align: center;
@@ -78,7 +78,7 @@ section h2 {
   
   text-transform: uppercase;
   font-family: var(--font-title);
-  font-size: 18px;
+  font-size: 1.2rem;
 
 }
 
@@ -87,7 +87,7 @@ section h2 {
 }
 
 ul li {
-  margin-bottom: 16px;
+  margin-bottom: 2rem;
   display: flex;
 
   border: solid 1px red;
@@ -98,10 +98,10 @@ li .details {
 }
 
 .details h3 {
-  margin-bottom: 8px;
+  margin-bottom: 1rem;
   color: var(--color-logo-primary);
 
-  line-height: 21px;
+  line-height: 1rem;
   text-transform: uppercase;
   font-family: var(--font-title);
 }
