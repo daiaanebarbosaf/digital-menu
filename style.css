@@ -142,12 +142,12 @@ footer {
 
 @media screen and (min-width: 768px){
   body {
-    min-height: 80vh;
+    max-height: 30vh;
   }
 
   .departament {
-    height: 80vh;
-    width: 70%;
+    height: 30rem;
+    width: 50%;
   }
 
   .details-menu {
@@ -156,13 +156,12 @@ footer {
 
   section h2,
   ul li {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
-  ul li {
-    margin-right: 3rem;
-  }
+}
 
-
+@media screen and (min-width: 992px){
 
 }
