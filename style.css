@@ -136,11 +136,19 @@ footer {
 @media screen and (min-width: 768px){
   .details-menu {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: conteudo;
+  }
+
+  .departament {
+    display: grid;
+    grid-template-areas: 
+    "titulo"
+    "produtos";
   }
 
   ul li {
-    margin-right: 5rem;
+    margin-right: 3rem;
   }
 
 }
