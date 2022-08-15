@@ -84,7 +84,7 @@ section h2 {
 }
 
 .departament {
-  border: solid 1px rebeccapurple;
+  /*border: solid 1px rebeccapurple;*/
 }
 
 ul li {
@@ -153,5 +153,4 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-
 }
