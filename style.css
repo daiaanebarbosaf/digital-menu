@@ -142,11 +142,10 @@ footer {
 }
 
 @media screen and (min-width: 768px){
-  body {
-    min-height: 50vh;
-  }
   .details-menu {
     display: flex;
+   
+    height: 75vh;
   }
 
   section h2,
