@@ -17,6 +17,7 @@
 
 body {
   background: var(--primary-color);
+  max-height: 100vh;
 }
 
 ul {
@@ -83,7 +84,7 @@ section h2 {
 }
 
 .departament {
-  /*border: solid 1px rebeccapurple;*/
+  border: solid 1px rebeccapurple;
 }
 
 ul li {
@@ -128,28 +129,22 @@ ul li strong {
 
 footer {
 
-  height: 42px;
+  height: 3rem;
 
   background: var(--color-logo-secundaria);
   color: var(--color-background-h2);
 
   text-align: center;
   font-family: var(--font-text-secundary);
-  font-size: 15px;
+  font-size: .9rem;
 
-  padding-top: 20px;
+  padding-top: 1rem;
 }
 
 @media screen and (min-width: 768px){
   body {
-    max-height: 30vh;
+    min-height: 50vh;
   }
-
-  .departament {
-    height: 30rem;
-    width: 50%;
-  }
-
   .details-menu {
     display: flex;
   }
